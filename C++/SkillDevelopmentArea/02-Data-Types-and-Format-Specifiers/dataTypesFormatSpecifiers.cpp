@@ -1,4 +1,4 @@
-// C has the following data types along with their format specifier:
+// C++ has the following data types along with their format specifier:
 // Int ("%d"): 32 Bit integer
 // Long (%ld): 32 bit integer (same as Int for modern systems)
 // Long Long ("%lld"): 64 bit integer
@@ -22,12 +22,12 @@ int main(void){
 	e = 4.0000002;
 	f = 5.2434555;
 	
-	printf("%d\n", a);
-	printf("%ld\n", b);
-	printf("%lld\n", c);
-	printf("%c\n", d);
-	printf("%f\n", e);
-	printf("%lf\n", f);
+	cout<<"\n"<< a;
+	cout<<"\n"<< b;
+	cout<<"\n"<< c;
+	cout<<"\n"<< d;
+	cout<<"\n"<< e;
+	cout<<"\n"<< f;
 	
 	return 0; 
 }
