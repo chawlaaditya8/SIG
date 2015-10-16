@@ -1,11 +1,11 @@
 Let's start with the mandatory ritual. Print the string "Hello World!".
 
-In c there are few steps that are needed to be followed to build a progremme.
+In c there are few steps that are to be followed to build a progrem.
 
--> Header Files that import the basic definition of default keywords
--> Main function the heart of any c programme
+-> Header Files that import the basic definition of default keywords.
+-> Main function the heart of any c program.
 
-The commands that are used in this programme which are new to you is/are
+The commands that are used in this program which are new to you is/are
 	printf:
 		Syntax: printf("TEXT TO BE DISPLAYED");
 		Used to print the output on the console.
