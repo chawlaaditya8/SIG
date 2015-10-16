@@ -1,0 +1,15 @@
+Let's start with the mandatory ritual. Print the string "Hello World!".
+
+In c there are few steps that are needed to be followed to build a progremme.
+
+-> Header Files that import the basic definition of default keywords
+-> Main function the heart of any c programme
+
+The commands that are used in this programme which are new to you is/are
+	printf:
+		Syntax: printf("TEXT TO BE DISPLAYED");
+		Used to print the output on the console.
+	return 
+		Syntax: return VALUE_TO_BE_RETURNED;
+		returns a value and will be discussed in detail later while discussing functions.
+		
