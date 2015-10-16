@@ -6,7 +6,8 @@
 // Float ("%f"): 32 bit real value
 // Double ("%lf"): 64 bit real value
 
-#include<stdio.h>
+#include<iostream>
+using namespace std;
 int main(void){
 	int a;
 	long b;
