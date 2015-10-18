@@ -1,0 +1,40 @@
+/*Almost all major programming languages support the concept of reusing block of codes through functions or methods.
+Methods provide the programmer the ease of using the same block of code again and again without typing it all over again.
+In java methods are very powerful and strict when it comes to their format. Every method must have a acces specifier (
+use of default access specifier is not genereally recommended), a return type, a name and arguments. Mrthods can either be static
+or non static based on their purpose. Static methods can call static method and instane(non static) methods can call instance
+methods. 
+Since our main method is static, therefore to invoke a non static method in the main, it must be instantiated and called 
+through it's object.
+Let us make both static and non static methods to differentiate among them properly.
+
+final class exampleClass {
+public static int square(int a) { //static method
+return a*a;
+	}
+public int cube(int b) { //instance method
+return b*b*b;
+	}
+}
+
+public class Main {
+
+static Scanner s = new Scanner(System.in);
+
+public static void main(String[] args) {
+
+int sq,cu;
+sq=s.nextInt();
+System.out.println("The square of " +sq+ " is " +exampleClass.square(sq));  //invoking static method through class name
+cu=s.nextInt();
+exampleClass obj = new exampleClass();
+System.out.println("The cube of " +cu+ " is " obj.cube(cu));//invoking instance method through object of class
+method1(); //calling static method directly since in same class
+ }
+private static void method1() {
+System.out.println("This method works");
+}
+}
+
+/*This should get you started on creating your own methods. Congrats ! You have just taken your first step towards
+understanding the object oriented approach clearly. */
