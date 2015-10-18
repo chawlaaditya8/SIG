@@ -1,0 +1,37 @@
+/*When we pass arguments to methods, we either pass by value or by reference. In java, we always pass by value.
+Now let us understand what the difference is between the two. When we pass by value, a copy of the argument is
+created which is then passes to the method. Any changes done on the argument within the method does not reflect on
+the original value and the changes imposed are limited to the copy of the argument only. Let us understand this
+by passing into primitives. */
+
+public void increament(int a) {
+a++;
+System.out.println("value in method " +a);
+}
+
+int original=10;
+System.out.println("Original value before function " +original);
+increament(original);
+System.out.println("value after function " +original);
+
+/*Output: Original value before function : 10
+value in method : 11
+value after function : 10
+*/
+
+/*As seen the original value did not change. Only the copy of the argument passed is increamented.
+
+
+/*When we pass complex objects like arrays to functions and make changes then those changes 
+are reflected. This shouldn't be the case if we are passing by copy, isn't it ?
+Well let us understand what happens internally.
+
+The variables inside a complex object are references.When we pass a complex object in a 
+function, we make a copy of it but the internal references are retained, that is although
+a new reference is created, it still points to the same memory location and thus changes
+made in that copy are reflected since they point to the same memory location.
+But we are still passing by value,not by reference.
+
+As long as you understand that in java we always pass by value but for complex objects, the objects
+are being passed by copy but the internal references are being retained, you'll see that
+the behaviour is completely consistent among the entire language. */  
