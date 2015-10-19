@@ -1,6 +1,6 @@
 //if else is used to compare two or more conditions and operate accordingly.
 #include<stdio.h>
-void main()
+int main(void)
 {
   int a, b;
   printf("Enter a and b");
@@ -11,4 +11,5 @@ void main()
   else{
     printf("b is smaller than a");
   }
+  return 0;
 }
