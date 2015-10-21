@@ -30,7 +30,7 @@ else {
 System.out.println("Not Equal");
 	}
 
-/*And now the answer is "Equal" as we expect it to be. Let us now look at some useful methods of this class
+/*And now the answer is "Equal" as we expect it to be. Let us now look at some useful methods of this class */
 
 int len = s1.length(); //stores the length of the string
 
