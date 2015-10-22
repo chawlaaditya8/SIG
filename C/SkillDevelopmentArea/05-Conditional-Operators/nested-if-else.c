@@ -1,5 +1,5 @@
-//We can write an entire if else construct within either body of the if statement or the body of an else statement
-. This is called nesting of ifs.
+/*We can write an entire if else construct within either body of the if statement or the body of an else statement
+. This is called nesting of ifs.*/
  
 #include<stdio.h>
 
