@@ -1,4 +1,4 @@
-Anybody adding chapters should follow some basic rules
+Anybody adding chapters should follow some basic rules and feel free to add new fields.
 
 - All the chapters should have a serial number and name should be '-' seperated.
 - All the code files should be named in camelCase format.
