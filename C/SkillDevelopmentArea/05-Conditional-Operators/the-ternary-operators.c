@@ -8,8 +8,8 @@ int main(void)
  {
    int i;
 
-   scanf("%d",&i);
-   (i==1 ? printf("Amit") : printf("All and sundry"));
+   scanf("%d", &i);
+   (i == 1 ? printf("Amit") : printf("All and sundry"));
  
    return 0;
 

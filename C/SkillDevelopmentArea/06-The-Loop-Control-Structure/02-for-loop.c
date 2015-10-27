@@ -15,10 +15,10 @@ You can intialize the loop counter before or increment/decrement the loop counte
 int main()
 {
   int i;
-  for(i=0;i<=10;)
+  for(i = 0; i <= 10; )
   {
-      printf("%d\n",i);
-      i=i+1;
+      printf("%d\n", i);
+      i = i + 1;
   }
   return 0;
 }

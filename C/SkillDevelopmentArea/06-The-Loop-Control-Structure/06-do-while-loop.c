@@ -18,7 +18,7 @@ int main()
   {
      printf("Hello there\n");
   }
-  while(4<1);
+  while(4 < 1);
  
   return 0;
 }

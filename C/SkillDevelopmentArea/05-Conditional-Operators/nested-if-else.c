@@ -8,14 +8,14 @@ int main(void)
    int i;
    
    printf("Enter either 1 or 2");
-   scanf("%d",&i);
+   scanf("%d", &i);
 
-   if(i==2)
+   if(i == 2)
        printf("You'll go to USA\n");
 
    else
    {
-       if(i==2)
+       if(i == 2)
            printf("LA is waiting for you");
        else
            printf("What about Ibiza");

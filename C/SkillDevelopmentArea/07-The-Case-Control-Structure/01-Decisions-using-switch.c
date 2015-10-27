@@ -20,7 +20,7 @@ Each constant in each case must be different from all the others. */
 
 int main()
 {
-    int i=2;
+    int i = 2;
     
     switch(i)
     {
@@ -37,7 +37,6 @@ return 0;
 }
 
 Output
-I am in case 1
 I am in case 2
 I am in case 3
 I am in default
@@ -51,7 +50,7 @@ I am in default
 
 int main()
 {
-    int i=2;
+    int i = 2;
     
     switch(i)
     {
